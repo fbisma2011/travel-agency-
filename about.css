@@ -1,0 +1,73 @@
+.navbar-brand h1{
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 133, 206);
+    size: large;
+}
+.navbar-nav .nav-link:hover{
+     font-size: 20px;
+}
+.footer {
+  background-color: #e9e4e4;
+  color: rgb(34, 34, 34);
+  padding: 50px 8% 20px;
+  border-top: none;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  width: 22%;
+}
+
+.footer-section h2 {
+  color: rgb(231, 128, 207) ;
+  margin-bottom: 15px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  line-height: 1.7;
+  color: #212121;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+  color: #262626;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #1a1919;
+}
+
+.footer-section ul li a:hover {
+  color: rgb(231, 128, 207);
+}
+
+.footer-line {
+  height: 1px;
+  background-color: #555;
+  margin: 30px 0 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #201f1f;
+  font-size: 14px;
+}
